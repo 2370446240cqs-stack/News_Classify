@@ -37,7 +37,10 @@ python process_data.py
 ```
 python devide.py
 ```
-(2)下载sougou词向量，将下载好的文件解压并放到任意位置，在后续训练中，你可以修改```train.py```中的词向量的存放路径
-(3)尝试从./News_Classfy/TextRNN/train.py开始训练，按照提示进行依赖的安装。
-(4)训练完成后，权重会保存在当前目录下，请新建./News_Classfy/model文件夹，将权重保存到model文件夹中。
+(2)下载sougou词向量，将下载好的文件解压并放到任意位置，在后续训练中，你可以修改```train.py```中的词向量的存放路径  
+
+(3)尝试从./News_Classfy/TextRNN/train.py开始训练，按照提示进行依赖的安装。  
+
+(4)训练完成后，权重会保存在当前目录下，请新建./News_Classfy/model文件夹，将权重保存到model文件夹中。  
+
 (5)保存完毕后，运行```infer.py```进行模型评估
